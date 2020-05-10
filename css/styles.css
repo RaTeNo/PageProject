@@ -302,9 +302,13 @@ input[type=checkbox] {
 }
 
 .blocks .block .name {
-    background: url(../images/dashboard_icon.svg) left center no-repeat;
-    padding-left: 40px;
     max-width: calc(100% - 415px);
+    display: flex;
+    align-items: center;
+}
+
+.blocks .block .name .icon{
+    margin-right:5px;
 }
 
 .blocks .block .img a{
@@ -404,4 +408,24 @@ input[type=checkbox] {
 .blocks .block.active{
     background: #EEF7FF;
     border: 1px solid #49ACFF;
+}
+
+
+.modal{
+    display: none;
+    position: relative;
+    background: #FFF;
+    padding: 50px;
+    width: auto;
+    max-width: 920px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.modal_content h1{
+    margin-bottom:20px;
+}
+
+.modal_content p{
+    margin-bottom: 20px;
 }

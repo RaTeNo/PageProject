@@ -16,4 +16,7 @@
    .head .form{
    		text-align: center;
    }
+   .modal_content h1{
+      font-size: 20px;
+  }
 }
