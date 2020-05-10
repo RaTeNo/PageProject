@@ -1,0 +1,44 @@
+@media (max-width: 479px)
+{
+    .blocks .block .img a{
+    	width: 100%;
+    }
+
+    .blocks .block .img{
+    	width: 100%;
+    	margin-bottom:20px;
+    }
+    .blocks .block .img img{
+    	width: 100%;
+    }
+
+    .head .form input[type='text']{
+    	width: 100%;
+    	margin: 0;
+    }
+
+    .head .form{
+    	padding: 10px;
+    }
+
+    .head .form *{
+    	margin: 0;
+    }
+
+    .head .form label{
+    	margin-bottom: 10px;
+    	display: block;
+    }
+    .head .form input[type='reset']{
+    	width: 100%;
+    	margin-top:10px;
+    }
+
+    .head .title h1{
+    	font-size: 24px;
+    }
+
+    .head .title div{
+    	font-size: 14px;
+    }
+}

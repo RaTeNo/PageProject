@@ -1,0 +1,19 @@
+@media (max-width: 767px)
+{
+   .blocks .block .name{
+   		width: 100%;
+    	max-width: 100%;    	
+    	margin-bottom: 20px;
+   }
+
+   .blocks .block .img{
+   		margin:0;
+   }
+   .blocks .block .price{
+   		margin-left: auto;
+   		width: 150px;
+   }
+   .head .form{
+   		text-align: center;
+   }
+}
