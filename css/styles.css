@@ -429,3 +429,47 @@ input[type=checkbox] {
 .modal_content p{
     margin-bottom: 20px;
 }
+.new_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: -21px;
+    margin-left: -21px;
+    margin-bottom:40px;
+}
+.new_block label{
+    display: flex;
+    cursor: pointer;
+    margin-left: 21px;
+    width: calc(25% - 21px);
+    margin-bottom: 21px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    padding: 12px;
+        align-items: center;
+        transition: 0.3s;
+}
+.new_block label.active{
+    background: #EEF7FF;
+    border: 1px solid #70ACE1;
+}
+.new_block span{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #233639;
+    margin-left: 20px;
+}
+
+h2{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #90A0A4;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}

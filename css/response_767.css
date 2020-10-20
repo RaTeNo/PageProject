@@ -19,4 +19,7 @@
    .modal_content h1{
       font-size: 20px;
   }
+  .new_block label{
+    width: calc(50% - 21px)
+  }
 }
